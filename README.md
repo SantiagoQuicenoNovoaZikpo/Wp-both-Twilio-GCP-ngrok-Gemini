@@ -45,6 +45,7 @@ Run the following command to install the necessary Python libraries:
 
 ```bash
 pip install twilio flask google-cloud-dialogflow
+```
 
 🌐 Main Python Code
 Below is the main Python code for configuring your server:
