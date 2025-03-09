@@ -1,46 +1,51 @@
-#Automated Chatbot with Twilio and GCP
-This project implements an automated chatbot that can receive and respond to messages using Twilio, distinguish whether the message is from a client or staff, and take appropriate action. The chatbot server runs on a local machine (physical server) using tools like Twilio, ngrok, Google Cloud Platform (GCP), and Cloud Gemini.
+# Automated Chatbot with Twilio and GCP
 
-🚀 Features
-Automatically receive and respond to messages using Twilio.
+This project implements an automated chatbot that can receive and respond to messages using Twilio, distinguish whether the message is from a client or staff, and take appropriate action. The chatbot server runs on a local machine (physical server) using tools like **Twilio**, **ngrok**, **Google Cloud Platform (GCP)**, and **Cloud Gemini**.
 
-Differentiate between messages from clients and staff.
+## 🚀 Features
+- Automatically receive and respond to messages using Twilio.
+- Distinguish between messages from clients and staff.
+- Utilize artificial intelligence for interpreting and responding to messages.
+- Securely configure on a local server exposed to the internet via ngrok.
 
-Leverage artificial intelligence for interpreting and responding to messages.
+---
 
-Secure configuration on a local server exposed to the internet via ngrok.
+## 🛠️ Tools Used
 
-🛠️ Tools Used
-1. Python
+### 1. **Python**
 The main programming language used to develop the chatbot server and process messages.
 
-2. Twilio
+### 2. **Twilio**
 A platform for managing communication via SMS and other channels. Provides APIs for receiving and sending messages.
 
-3. ngrok
+### 3. **ngrok**
 A tool to securely expose your local server to the internet, allowing external platforms like Twilio to communicate with it.
 
-4. Google Cloud Platform (GCP)
+### 4. **Google Cloud Platform (GCP)**
 Used to integrate additional services like databases, storage, or AI APIs to enhance chatbot functionality.
 
-5. Cloud Gemini
+### 5. **Cloud Gemini**
 An AI platform for advanced natural language processing, enabling the chatbot to tailor its responses based on message content.
 
-⚙️ Project Setup
-Prerequisites
-Install Python 3.x and the pip package manager.
+---
 
-Create accounts on Twilio and Google Cloud Platform (GCP).
+## ⚙️ Project Setup
 
-Install ngrok from its official website.
+### Prerequisites
+1. **Install Python 3.x** and the `pip` package manager.
+2. Create accounts on [Twilio](https://www.twilio.com/) and [Google Cloud Platform (GCP)](https://cloud.google.com/).
+3. Install `ngrok` from its [official website](https://ngrok.com/).
+4. Enable long path support on Windows if needed.
 
-Enable long path support on Windows if needed.
+---
 
-Installing Dependencies
+### Installing Dependencies
+
 Run the following command to install the necessary Python libraries:
 
-bash
+```bash
 pip install twilio flask google-cloud-dialogflow
+
 🌐 Main Python Code
 Below is the main Python code for configuring your server:
 
