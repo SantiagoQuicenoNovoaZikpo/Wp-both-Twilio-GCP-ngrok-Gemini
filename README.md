@@ -1,4 +1,4 @@
-Automated Chatbot with Twilio and GCP
+#Automated Chatbot with Twilio and GCP
 This project implements an automated chatbot that can receive and respond to messages using Twilio, distinguish whether the message is from a client or staff, and take appropriate action. The chatbot server runs on a local machine (physical server) using tools like Twilio, ngrok, Google Cloud Platform (GCP), and Cloud Gemini.
 
 🚀 Features
